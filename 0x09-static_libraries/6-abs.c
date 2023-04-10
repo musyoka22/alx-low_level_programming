@@ -2,10 +2,8 @@
 
 /**
  * _abs - computes the absolute value of an integer
- *
- * @n: The character to be checked
- *
- * Return: The absolute value
+ * @n: the int to check
+ * Return: the absolute value of int
  */
 int _abs(int n)
 {
@@ -13,8 +11,5 @@ int _abs(int n)
 	{
 		return (n);
 	}
-	else
-	{
-		return (-n);
-	}
+	return (-n);
 }
